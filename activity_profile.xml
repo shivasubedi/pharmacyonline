@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:gravity="center"
+    tools:context="com.gamepoint.activity.ProfileActivity"
+    android:orientation="vertical"
+    android:padding="0dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile Page"
+        android:gravity="center"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textAllCaps="true"
+        android:textSize="30sp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:elevation="12dp"
+        android:id="@+id/profileview1"
+        app:cardCornerRadius="40dp"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:id="@+id/profileview2"
+            android:src="@drawable/profileadmin"
+            android:scaleType="centerCrop"/>
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="shiva subedi"
+            android:textSize="15sp"
+            android:textColor="#659ACE"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:padding="10dp"/>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/useremail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cvaprince15@gmail.com"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textSize="15sp"
+            android:textColor="#659ACE"
+            android:padding="10dp"/>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/useraddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="baglung 06 baglung"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textSize="15sp"
+            android:textColor="#659ACE"
+            android:padding="10dp"/>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/userphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+9779847682436"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textSize="15sp"
+            android:textColor="#659ACE"
+            android:padding="10dp"/>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>
